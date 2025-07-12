@@ -15,7 +15,7 @@ st.metric(label="Temperature", value="70 °F")
 
 st.link_button("Go to gallery", "https://streamlit.io/gallery")
 
-with col1:
+  with col1:
     st.header("A cat")
     st.image("https://static.streamlit.io/examples/cat.jpg")
 
